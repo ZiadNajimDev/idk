@@ -9,168 +9,9 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Syne:wght@400..800&display=swap"
       rel="stylesheet"
     />
-    <style>
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: Syne;
-    background: #1A1A1A;
-    color: #ffffff;
-}
-.app {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5 , fr);
-    grid-template-areas: 
-    "section1"
-    "section2"
-    ;
-    gap: 4rem;
-}
-.navbar {
-    display: flex;
-    justify-content: center;
-}
-.navbar h1 {
-padding: 2rem;
-}
-.navbar-items {
-    display: none;
-}
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.content p {
-    margin-top: 7rem;
-    margin-bottom: 9rem;
-    font-size: 3rem;
-    padding: 1rem;
-    font-weight: bold;
-}
-.orangeBtn {
-    width: 100%;
-    max-width: 170px;
-    max-height: 100px;
-    background: #ff9143;
-    padding: 1rem 1.5rem;
-    text-align: center;
-    border-radius: 30px;
-    font-family: rubik;
-    letter-spacing: 1.63px;
-    font-size: 0.75rem;
-}
-.section2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-    margin-left: 2rem;
-    margin-right: 2rem; 
-}
-.content2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    order: 2;
-    margin-left: 2rem;
-}
-.content2 p {
-    margin-bottom: 4rem;
-    margin-top: 1rem;
-    color: #a8a8a8;
-    font-size: 1.5rem;
-}
-.content2 h1 {
-    font-size: 3rem;
-    padding: 1rem;
-    font-weight: bold;
-}
-.section2 img {
-    max-width: 400px;
-    max-height: 400px; 
-    order: 1;
-}
-
-
-@media (min-width: 1024px) { 
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-        color: white;
-    }
-    .section1 {
-        margin-left: 4rem;
-    margin-right: 4rem;
-    }
-    .navbar a {
-        text-decoration: none;
-        color: #8e8e8e;
-        font-family: rubik;
-        font-size: 0.75rem;
-    }
-    .btn {
-        margin-left: 2rem;
-        margin-right: 3rem;
-        background: black;
-        padding: 1rem 1.5rem;
-        font-weight: bold;
-        color: #cfcfcf;
-        border-radius: 30px;
-        font-size: 0.75rem;
-        border: 2px solid #575757;
-    } 
-    .content p {
-        margin-top: 7rem;
-        margin-bottom: 9rem;
-        font-size: 4rem;
-        font-weight: bold;
-    }
-    .navbar-items {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 1rem;
-    }
-    
-.section2 {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
-    align-items: center;
-    padding: 5rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
-}
-.content2 {
-    order: 1; 
-}
-.content2 p {
-    margin-bottom: 4rem;
-    margin-top: 3rem;
-    color: #a8a8a8;
-    font-size: 1rem;
-}
-.content2 h1 {
-    font-size: 3rem;
-}  
-.section2 img {
-    max-width: 400px;
-    max-height: 400px; 
-    order: 2;
-} 
-}
-    </style>
+    <link rel="stylesheet" href="portfolio.css" />
     <title>Ziad Najim</title>
+    
   </head>
   <body>
     <div class="app">
@@ -206,6 +47,46 @@ padding: 2rem;
         </div>
         <img src="me4.png" alt="" />
       </div>
+      <div class="section3">
+        <div class="content3">
+          <h1>My Projects Highlight</h1>
+          <a class="orangeBtn btn1">Discover More</a>
+        </div>  
+        <div class="gallery">
+          <div class="card">
+            <div class="photo"></div>
+            <div class="photoTitle">
+              <h3>Brand Journey Improvements</h3>
+              <button class="photo-btn"></button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="photo2"></div>
+            <div class="photoTitle">
+              <h3>Brand Journey Improvements</h3>
+              <button class="photo-btn"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section4">
+        <div class="content4">
+          <h1>Testimonial</h1>
+          <p>Working with ZiadNajimDev was an excellent experience. I needed a modern, functional app,<br> and he delivered exactly what I was looking for with creativity and professionalism. <br> The process was smooth, and his technical skills made all the difference. <br> I highly recommend him to anyone needing quality development work.</p>
+          <h4>-Walid Amkor</h4>
+        </div>
+        <img src="quotes.png" alt="">
+      </div>
+      <footer>
+        <h3>Get in Touch With Us</h3>
+        <h1 class="email">info@aaronn.com</h1>
+        <div class="footer-bar">
+          <h1>MYlogo</h1>
+          <h3>+212-6-00-888-000</h3>
+          <img src="Frame 5.png" alt="">
+        </div>
+        <h6>© 2023. Ideapeel. All rights reserved. </h1>
+      </footer>
     </div>
   </body>
 </html>
