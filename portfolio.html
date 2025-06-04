@@ -10,7 +10,7 @@
       rel="stylesheet"
     />
     <style>
-      * {
+    * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -74,23 +74,6 @@ padding: 2rem;
     margin-left: 2rem;
     margin-right: 2rem; 
 }
-
-.content2 p {
-    margin-bottom: 4rem;
-    margin-top: 1rem;
-    color: #a8a8a8;
-  
-}
-.content2 h1 {
-    font-size: 2rem;
-    padding: 1rem;
-    font-weight: bold;
-}
-.section2 img {
-    max-width: 400px;
-    max-height: 400px; 
-    order: 1;
-}
 .content2 {
     display: flex;
     flex-direction: column;
@@ -99,6 +82,24 @@ padding: 2rem;
     order: 2;
     margin-left: 2rem;
 }
+.content2 p {
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    color: #a8a8a8;
+    font-size: 1.5rem;
+}
+.content2 h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+.section2 img {
+    max-width: 400px;
+    max-height: 400px; 
+    order: 1;
+}
+
+
 @media (min-width: 1024px) { 
     .navbar {
         display: flex;
@@ -143,18 +144,21 @@ padding: 2rem;
     
 .section2 {
     display: flex;
+    flex-direction: row; 
     justify-content: space-around;
     align-items: center;
     padding: 5rem;
     margin-left: 4rem;
     margin-right: 4rem;
 }
-
+.content2 {
+    order: 1; 
+}
 .content2 p {
     margin-bottom: 4rem;
     margin-top: 3rem;
     color: #a8a8a8;
-  
+    font-size: 1rem;
 }
 .content2 h1 {
     font-size: 3rem;
@@ -162,6 +166,7 @@ padding: 2rem;
 .section2 img {
     max-width: 400px;
     max-height: 400px; 
+    order: 2;
 } 
 }
     </style>
