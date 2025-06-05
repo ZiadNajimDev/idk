@@ -43,7 +43,8 @@ padding: 2rem;
     font-size: 3rem;
     padding: 1rem;
     font-weight: bold;
-    
+    text-align: center;
+    width: 100%; 
 }
 .orangeBtn {
     width: 100%;
@@ -106,6 +107,8 @@ padding: 2rem;
 .content3 h1 {
     margin-bottom: 4rem;
     font-size: 3.4rem;
+    text-align: center;
+    padding: 0 1rem;
 }
 .btn1 {
     background: transparent;
